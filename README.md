@@ -23,5 +23,8 @@ $ cat demo.txt                 			   # show the demo file on Linux (optional)
 4. Then you can use the demo.py to convert this demo file to UTF-8 encoded.
 ![image](./images/demo1.png)
 <br>
-If the conversion is successful, the following screen will be output.
+5. If the conversion is successful, the following screen will be output.
 ![image](./images/demo2.png)
+<br>
+6. Finally, we can open the output.txt to view the converted file.
+![image](./images/demo3.png)
