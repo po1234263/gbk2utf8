@@ -1,6 +1,6 @@
 # part 1. Introduction
 
-Implementation of a program that converts GBK encoded files into UTF-8 encoded files.
+## Implementation of a program that converts GBK encoded files into UTF-8 encoded files.
 
 # part 2. Quick start
 ## 1. Clone this file
