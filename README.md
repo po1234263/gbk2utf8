@@ -15,7 +15,7 @@ $ python demo.py
 ![image](./images/demomain.png)
 3. If you don't have any GBK encoded files, I have provided a sample file(demo.txt).
 ```bashrc
-$ type demo.txt                		       # show the demo file on Windows (optional)
+$ type demo.txt                		           # show the demo file on Windows (optional)
 $ cat demo.txt                 			   # show the demo file on Linux (optional)
 ```
 ![image](./images/demotxt.png)
