@@ -19,7 +19,9 @@ $ type demo.txt                		       # show the demo file on Windows (optiona
 $ cat demo.txt                 			   # show the demo file on Linux (optional)
 ```
 ![image](./images/demotxt.png)
+<br>
 4. Then you can use the demo.py to convert this demo file to UTF-8 encoded.
 ![image](./images/demo1.png)
+<br>
 If the conversion is successful, the following screen will be output.
 ![image](./images/demo2.png)
