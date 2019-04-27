@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from core import gbk2utf8
+import platform
 
 def openfileCallBack(var):
     file_path = filedialog.askopenfilename()
@@ -30,7 +31,13 @@ def convert():
 mainWin = tk.Tk()
 mainWin.title("GBK2UTF8 tool")
 mainWin.geometry("450x300")
-mainWin.iconbitmap('icon.ico')
+
+sysstr = platform.system()
+if(sysstr == "Windows"):
+    mainWin.iconbitmap('icon.ico')
+else:
+    None
+
 firstTextboxDesc = tk.Label(mainWin, text="The first textbox needs the location of GBK encoded file.").grid(row = 2, column = 0)
 secondTextboxDesc = tk.Label(mainWin, text="The second textbox needs the location of output file.").grid(row = 4, column = 0)
 
